@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "pl">
+<head>
+   <meta charset = "UTF-8">
+   <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+   <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>OnePage</title>
+</head>
+<body class = "wrapper">
+   <header class = "wrapper__header " data-menuContainer>
+      <a class = "wrapper__a logo" href = "#">
+         <img class = "logo__img" src = "web.png" alt = "logo icon">
+         OnePageSide
+      </a>
+      <button class = "menuMobileBtn" type = "button" data-mobileBtn>
+         <span class = "menuMobileBtn__span"></span>
+         <span class = "menuMobileBtn__span"></span>
+         <span class = "menuMobileBtn__span"></span>
+      </button>
+      <nav class = "wrapper__nav">
+         <ul class = "wrapper__ul">
+            <li class = "wrapper__li">
+               <a class = "wrapper__a menu__a active" href="#home" data-menuLink>Home</a>
+            </li>
+            <li class = "wrapper__li">
+               <a class = "wrapper__a menu__a" href="#about" data-menuLink>About</a>
+            </li>
+            <li class = "wrapper__li">
+               <a class = "wrapper__a menu__a" href="#work" data-menuLink>Work</a>
+            </li>
+            <li class = "wrapper__li">
+               <a class = "wrapper__a menu__a" href="#contact" data-menuLink>Contact</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+
+   <main class = "container">
+      <article class = "page homePage" id = "home" data-pages>
+         <h1 class = "homePage__h1">Welcome</h1>
+         <h2 class = "homePage__h2">
+            Scroll to read more
+            <div></div>
+         </h2>
+      </article>
+      <article class = "page aboutPage" id = "about" data-pages>
+         <h3 class = "page__h3 aboutPage__h3">about</h3>
+         <hr class = "page__hr">
+         <!-- <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt="" srcset=""> -->
+         <img class = "page__img aboutPage__img" src="https://dl.memuplay.com/new_market/img/com.vicman.newprofilepic.icon.2022-06-07-18-27-49.png" alt="" srcset="">
+         <h4 class = "page__h4 aboutPage__h4">Me / developer</h4>
+         <p class = "page__p aboutPage__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus animi consequuntur illum saepe accusamus dolores quod eius, amet laudantium omnis corporis eaque praesentium minima quisquam placeat architecto voluptatibus quas odio.
+            Eos natus a ab, nam est sed ex aliquid! Corrupti aspernatur facilis adipisci reprehenderit iure ut nemo, nisi, nihil beatae illo aliquam itaque, culpa consectetur. Saepe provident veritatis reiciendis fugit.
+            Magni necessitatibus voluptatum sit eligendi impedit dolores repudiandae veritatis eos corporis neque similique culpa alias, sapiente libero numquam maiores autem nisi animi dignissimos. Vero nisi impedit ipsa explicabo quidem illo?
+            Vero doloremque impedit quaerat porro esse sequi itaque minima eum, dolorem ullam quam quibusdam eaque odio beatae maiores. Dolorem iusto eius nostrum nam pariatur eligendi corrupti molestias fugiat magnam rerum?
+            Quas enim autem dolore esse illo nemo optio quidem. Harum magnam earum veniam! Eveniet eligendi tempore iusto itaque quidem, quod ullam minima ipsum tenetur ad. Quidem sapiente ex obcaecati iure.
+            Eos necessitatibus eligendi iusto optio odio repellat cupiditate nihil delectus quo rem. Distinctio quibusdam eos modi quaerat eligendi. Pariatur aut sequi rem deleniti numquam ut nisi, error qui facilis labore.
+            Saepe laboriosam ex odio libero mollitia
+         </p>
+
+      </article>
+      <article class = "page workPage" id = "work" data-pages>
+         <h3 class = "page__h3 aboutPage__h3">work</h3>
+         <hr class = "page__hr">
+         <div class = "shapeContainer">
+            <div class="shape">project 1</div>
+            <div class="shape">project 2</div>
+            <div class="shape">project 3</div>
+            <div class="shape">project 4</div>
+            <div class="shape">project 5</div>
+            <div class="shape">project 6</div>
+         </div>
+
+      </article>
+      <article class = "page contactPage" id = "contact" data-pages>
+         <h3 class = "page__h3 aboutPage__h3">Contact</h3>
+         <hr class = "page__hr">
+         <form class = "form" action = "" method = "post">
+            <input class = "form__input form__input--email" type = "email" name = "" id = "" tabindex = "1" placeholder = "email" required >
+            <input class = "form__input form__input--text" type = "text" name = "" id="" tabindex="2" placeholder = "topics" required></input>
+            <textarea class = "form__textarea" tabindex = "3" placeholder = "Text..." required></textarea>
+            <input class = "form__input form__input--button" type = "submit" value = "submit" tabindex = "4">
+         </form>
+      </article>
+      <aside class = "">
+         <div class = ""></div>
+      </aside>
+   </main>
+
+<script src = "script.js"></script>
+</body>
+</html>
